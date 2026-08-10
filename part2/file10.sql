@@ -12,3 +12,4 @@ select ct.name,cn.name from country cn, city ct where cn.code = ct.countrycode;
 select city.name, country.name from country inner join city on country.code = city.countrycode;
 
 //display countryname and language spoken
+select country.name,countrylanguage.language from country inner join countrylanguage on country.code = countrylanguage.countrycode;
