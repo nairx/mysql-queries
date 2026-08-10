@@ -20,3 +20,7 @@ create table emp(
     salary int,
     unique (id)
 )
+
+alter table emp add country varchar(255);
+
+alter table emp add country varchar(255) after empname;
