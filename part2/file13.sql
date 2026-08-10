@@ -19,5 +19,4 @@ create table employees (
 
 insert into employees(name,depid) values('emp1',1);
 
-
 insert into employees(name,depid) values('emp6',6);  // reference error
