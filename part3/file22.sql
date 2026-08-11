@@ -8,7 +8,7 @@ create table customer(
 DELIMITER //
 CREATE PROCEDURE AddCustomer(IN p_id int, IN p_name varchar(100))
 BEGIN
- DECLARE EXIT HANDLES FOR SQLEXCEPTION
+ DECLARE EXIT HANDLER FOR SQLEXCEPTION
  BEGIN
    SELECT 'An Error Occurred...';
  END;
