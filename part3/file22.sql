@@ -16,3 +16,6 @@ BEGIN
  values(p_id,p_name);
 END //
 DELIMITER;
+
+
+call AddCustomer(2,'Amy');
