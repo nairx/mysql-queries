@@ -17,5 +17,4 @@ BEGIN
 END //
 DELIMITER;
 
-
 call AddCustomer1(2,'Amy');
