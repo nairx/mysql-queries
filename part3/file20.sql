@@ -21,7 +21,6 @@ DELIMITER;
 
 call SalaryCategory(30000);
 
-
 DELIMITER //
 CREATE PROCEDURE SalaryCategory1(IN empSalary DECIMAL(10,2))
 BEGIN
